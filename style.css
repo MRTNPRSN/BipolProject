@@ -1,8 +1,7 @@
 .alert-button {
     border-radius: 50%;
-    height: 250px;
+    height: 200px;
     width: 200px;
-    border: 30px solid #124313;
     font-size: 100px;
 
     margin-bottom: 20px;
@@ -12,6 +11,7 @@
     width: 200px;
     height: 200px;
     perspective: 1000px;
+    padding-bottom: 30px;
   }
   
   .behind{
@@ -23,6 +23,8 @@
     transform-style: preserve-3d;
     border-radius: 100px;
     background-color: pink ;
+    background-image: url(https://www.rd.com/wp-content/uploads/2018/07/tardigrade.jpg);
+    background-size: cover;
   }
   
   .flip-card:hover .behind {
