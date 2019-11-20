@@ -4,9 +4,11 @@
     width: 200px;
     border: 30px solid #124313;
     font-size: 100px;
-    margin-bottom: 20px;
+
     font-family: 'Libre Barcode 39 Text', cursive;
     box-shadow: 50px 5px red;
+
+    order: 0;
 }
 
 body {
@@ -15,4 +17,7 @@ body {
   background-size: cover;
   align-items: center;
   text-align: center;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
 }
